@@ -2,17 +2,19 @@
 	"name": "NodeStrap",
 	"version": "0.0.1",
 	"engines": {
-		"node": "0.10.x",
-		"npm": "1.2.x"
+		"node": "*",
+		"npm": "latest"
 	},
 	"dependencies": {
-		"express": "3.1.x",
-		"connect-flash": "0.1.x",
+		"bcrypt": ">= *",
+		"connect-flash": "*",
+		"express": "*",
 		"jade": "*",
-		"passport": ">= 0.0.0",
-		"passport-local": ">= 0.0.0",
-		"mongodb": ">= 0.0.0",
-		"mongoose": ">= 0.0.0",
-		"bcrypt": ">= 0.0.0"
+		"mongodb": ">= *",
+		"mongoose": ">= *",
+		"NodeStrap": "github:BowmanFlooring/nodestrap",
+		"passport": ">= *",
+		"passport-local": ">= *",
+		"pug": "^3.0.2"
 	}
 }
